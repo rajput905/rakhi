@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+h1, h2 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff1c68;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 4px solid white;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.message {
+  font-size: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  margin-top: 20px;
+}
